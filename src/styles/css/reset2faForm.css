@@ -1,0 +1,19 @@
+.reset-2fa-form .form-upload {
+  overflow: visible;
+  cursor: pointer;
+}
+
+.reset-2fa-form .form-upload .error-text {
+  position: absolute;
+  bottom: -25px;
+}
+
+.reset-2fa-form .form-upload .error-text span {
+  white-space: nowrap;
+}
+
+.reset-2fa-form .form-submit {
+  margin-top: 45px;
+}
+
+

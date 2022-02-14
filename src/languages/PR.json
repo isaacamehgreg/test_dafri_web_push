@@ -1,0 +1,70 @@
+{
+  "Auth": {
+    "ForgotPassword": {
+      "code": "Code",
+      "enter_email": "Enter the email to reset the password.",
+      "enter_valid_email": "Enter the valid e-mail.",
+      "google_authenticator_code": "Google Authenticator Code (2FA)",
+      "next": "Next",
+      "reset_login_password": "Reset Login Password"
+    },
+    "Login": {
+      "2fa": "Google Authenticator Code (2FA)",
+      "code": "Code",
+      "enter_valid_email": "Enter valid e-mail",
+      "email": "Email",
+      "error_password": "Password must be at least 8 characters using 1 small letter, 1 upper case letter, 1 number and 1 symbol and maximum of 25 characters",
+      "forgot_password": "Forgot password?",
+      "login": "Login",
+      "not_CryoMEX": "Not on CryoMEX yet?",
+      "please_check": "Please check that you are visiting",
+      "password": "Password",
+      "remember_me": "Remember me",
+      "register": "Register",
+      "reset_2fa": "Need to reset 2FA?"
+    },
+    "NewIpLogger": {
+      "check_your_email": "Check your email",
+      "code": "Code",
+      "didnt_get_code": "Didn't get a code? Please, wait a few minutes.",
+      "if_you_didnt_get": "If you didn't get a 6-digit code then, tap ",
+      "login_new_device": "You are logged in with a new device. Please enter the 6-digit code that we sent you on email",
+      "resend_code": "resend code"
+    },
+    "RecoveryPassword": {
+      "confirm_password": "Confirm password",
+      "error_password": "Password must be at least 8 characters using 1 small letter, 1 upper case letter, 1 number and 1 symbol and maximum of 25 characters",
+      "new_password": "New password",
+      "password_recovery": "Password recovery",
+      "passwords_not_match": "Passwords do not match.",
+      "save": "Save"
+    },
+    "Reset2FA": {
+      "email": "Email",
+      "email_error": "Field 'Email' should be filled in",
+      "please_upload_selfie": "Please, upload selfie",
+      "reset_2fa": "Reset 2FA",
+      "reset_you_need": "To reset 2FA you need to add selfie with your ID",
+      "reason": "Reason",
+      "reason_error": "Field 'Reason' should be filled in",
+      "request": "Request",
+      "upload_selfie": "Upload selfie"
+    },
+    "SignupPage": {
+      "and": " and ",
+      "already_registered": "Already registered? ",
+      "create_free_account": "Create a Free Account",
+      "create_account": "Create account",
+      "email": "Email",
+      "email_error": "Enter valid e-mail",
+      "error_password": "Password must be at least 8 characters using 1 small letter, 1 upper case letter, 1 number and 1 symbol and maximum of 25 characters",
+      "i_have_read": "I have read and agree to the",
+      "password": "Password",
+      "privacy": "Privacy Privacy",
+      "please_agree": "Please agree with the Terms and Conditions",
+      "referral_id": "Referral ID (Optional) ",
+      "terms_conditions": "Terms & Conditions",
+      "welcome": "Welcome to CryoMEX"
+    }
+  }
+}

@@ -1,0 +1,212 @@
+/* SUPPORT SELECT STYLES START */
+.support-section .select__indicator.select__dropdown-indicator {
+  padding: 0;
+  background-image: url('../img/faq-arrow.svg');
+  background-size: 12px;
+  height: 6px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.support-section .select__indicator.select__dropdown-indicator svg {
+  display: none;
+}
+
+.support-section .select-container .select__menu {
+  position: relative;
+  box-shadow: none;
+  border-radius: 0;
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.support-section .select-container .select__control {
+  cursor: pointer;
+}
+
+.support-section .select__menu .select__menu-list {
+  padding-top: 0;
+  padding-bottom: 0;
+  max-height: 100%;
+}
+
+.support-section .select__menu .select__option:last-child {
+  margin-bottom: 0;
+}
+
+.support-section .select__menu .select__option {
+  margin-bottom: 12px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 44px;
+  height: auto;
+  padding: 6px 20px;
+  font-size: 16px;
+  background: #F2F2F2;
+  border-radius: 8px;
+  text-align: left;
+  transition: all .15s ease-out;
+  cursor: pointer;
+}
+
+.support-section .select__menu .select__option--is-focused {
+  background: var(--main-color);
+  color: #fff;
+  transition: background .15s ease-in;
+}
+
+.support-section .select__menu .select__option--is-selected {
+  background: var(--main-color);
+  color: #fff;
+  font-weight: 600;
+  transition: background .15s ease-in;
+  background-image: url('../img/select-icon.svg');
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+}
+
+.support-section .select__control .select__single-value {
+  font-size: 16px;
+}
+
+.support-section .select__control .select__clear-indicator {
+  display: none;
+}
+
+.support-section .select-container.error {
+  border: 1px solid #FF464F;
+}
+
+.support-section .select-container.error .select__placeholder {
+  color: #FF464F;
+}
+
+.support-section .field-wrap textarea {
+  font-size: 16px;
+}
+
+.support-section .field-wrap textarea::placeholder {
+  font-size: 16px;
+}
+
+.support-section .field-wrap.error textarea::placeholder {
+  color: #FF464F;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .support-section .select__menu .select__option, .select__single-value {
+    font-size: 16px;
+  }
+}
+
+/* SUPPORT SELECT STYLES END */
+
+
+/* EDIT AGENT FORM SELECT STYLES START */
+
+.select-agent {
+  border: 1px solid var(--input-border-color);
+}
+
+.select-agent.error {
+  border: 1px solid #FF464F;
+}
+
+.inner-section--agent .select-agent__value-container {
+  padding: 12px 0;
+  cursor: pointer;
+}
+
+.inner-section--agent .select-agent__menu {
+  left: 0;
+}
+
+.inner-section--agent .select-agent__menu-list {
+  padding: 10px 0;
+  max-height: 184px;
+  overflow: auto;
+  scrollbar-color: #D0D0D0 transparent;
+  scrollbar-width: thin;
+}
+
+.inner-section--agent .select-agent__menu-list::-webkit-scrollbar {
+  width: 3px;
+}
+
+.inner-section--agent .select-agent__menu-list::-webkit-scrollbar-thumb {
+  background: #D0D0D0;
+}
+
+.inner-section--agent .select-agent__menu-list::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.inner-section--agent .select-agent__option--is-focused {
+  background-color: transparent;
+}
+
+.inner-section--agent .select-agent__option {
+  line-height: 18px;
+  padding: 5px 15px;
+}
+
+.inner-section--agent .select-agent__option:hover {
+  background-color: #32b681;
+  color: #fff
+}
+
+.inner-section--agent .select-agent__option:focus,
+.inner-section--agent .select-agent__option:active {
+  background-color: transparent;
+}
+
+.inner-section--agent .select-agent__option--is-selected,
+.inner-section--agent .select-agent__option--is-selected:active,
+.inner-section--agent .select-agent__option--is-selected:focus {
+  background-color: #3DD598;
+}
+
+.inner-section--agent .select-agent__dropdown-indicator {
+  padding: 0;
+  background-image: url('../img/faq-arrow.svg');
+  background-size: 9px;
+  height: 6px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.inner-section--agent .select-agent__indicators {
+  margin-top: 4px;
+  height: 100%;
+  align-items: center;
+}
+
+.inner-section--agent .select-agent__indicator.select-agent__clear-indicator {
+  display: none;
+}
+
+.newtab .table--open-orders-sl .tr {
+  display: grid;
+  grid-template-columns: 140px 140px 140px 140px 140px 140px 140px !important;
+} 
+
+/*.inner-section--agent*/
+/*.inner-section--agent*/
+/*.inner-section--agent*/
+/*.inner-section--agent*/
+/*.inner-section--agent*/
+/*.inner-section--agent*/
+/*.inner-section--agent*/
+/*.inner-section--agent*/
+
+
+/* EDIT AGENT FORM SELECT STYLES START */
